@@ -21,7 +21,7 @@ async function bootstrap() {
 
   app.useGlobalFilters(new RpcCustomExceptionFilter);
   await app.listen(envs.port);
-  console.log("Hola mundo cambio");
+  console.log("Hola mundo cambio - otro cambio");
 
   logger.log(`Geteway Running in port ${envs.port}`)
 
